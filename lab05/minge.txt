@@ -1,0 +1,14 @@
++ Harry
++ Ron
++ Hermione
++ Frank
++ George
+f Harry Ron
+f Harry Hermione
+f Harry Frank
+f George Frank
+f Frank Hermione
+f Frank Ron
+f Frank George
+m Harry Frank
+r Harry

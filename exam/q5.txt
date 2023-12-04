@@ -1,0 +1,29 @@
+Question 5
+
+(a) Describe and justify the steps you would take to determine which
+    sorting algorithm the program uses.
+
+In order to determine the sorting algorithm the program uses, I would
+run through the program several times with increasing inputs and run it
+through the ascending, descending and random sorts. 
+
+The selection sort always has a time complexity of O(n^2), while the 
+quicksort has an average time complexity of O(nlog(n)) as the worst 
+case is when the pivot is the largest or smallest value in the array, 
+which is unlikely to be chosen most of the time. After running the 
+program using the time commands, I would create a table with the times
+and analyse the times. I would also plot a graph to analyse the nature
+of the time increases as if it looks like an O(n^2), it is a selection 
+sort and if it looks like an O(nlog(n)), it is a randomised quicksort.
+
+
+
+(b) Is the sorting algorithm that the program uses stable? How confident
+    are you in your conclusion? Explain your answer.
+
+I can somewhat confidently say that the sorting algorithm is stable as it 
+is clear that the relative order between the right pair numbers is maintained 
+while the left pair numbers are being sorted. However, there is still the
+possibility that it can produce an unstable sort like in a quicksort which
+can be both stable and unstable depending on the pivot and the position of
+a duplicate. 

@@ -1,0 +1,14 @@
+Question 5
+
+(a) What is the difference between an Euler path and a Hamilton path?
+
+
+
+(b) Does the graph have any Euler paths? If so, give one of them. If not, explain why.
+
+
+
+(c) Does the graph have any Hamilton paths? If so, give one of them. If not, explain why.
+
+
+

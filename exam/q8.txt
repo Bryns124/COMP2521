@@ -1,0 +1,10 @@
+Question 8
+
+Which of the given statements about tries (A, B, C or D) is false?
+Briefly explain why the statement you selected is false.
+
+C is false. This is because the child of the root node could be 
+any letter and that trie could end there which would not form a 
+complete word or it could go on and have something like 'd' then
+'e' and just end there, which would still be an incomplete or 
+invalid word. 

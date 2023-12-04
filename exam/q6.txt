@@ -1,0 +1,24 @@
+Question 6
+
+Which of the data structures is most suitable? Justify your answer.
+You must use time complexities as a basis for your justification.
+
+The most suitable data structure for a priority queue is a heap.
+The way the heap works is when it is popped, which is O(1), it swaps with the 
+bottom-most right-most value and then fixdown() itself to put
+itself back into order, which is O(h) and returns the popped value from the heap
+and puts it into a queue. As it repeats these steps, it produces an
+ordered queue, hence a priority queue making it suitable to be a
+data structure for the priority queue. 
+
+An AVL tree would not be suitable as inserting and deleting from it
+would be O(h^2) as it would have to go down the tree to find where to
+insert or delete and then it would have to go back up to rearrange itself.
+
+An ordered linked list would not be suitable as inserting would take O(n)
+time whereas a heap is constant time. 
+
+An ordered array would not be suitable as it would constantly have to resize 
+itself if all the slots in the array are filled which a heap does not have to
+worry about. 
+

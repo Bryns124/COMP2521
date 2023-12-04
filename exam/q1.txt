@@ -1,0 +1,26 @@
+Question 1
+
+(a) What is the maximum input size that can be processed? Justify your
+    answer.
+
+The maximum input size that can be processed in a day would be 
+= 2^10000 inputs. This is because the program is stated to be able to
+run 1000 times faster and since we are given the same time frame (1 day)
+and the same implementation, the number of maximum input size must be
+2^(10*1000) = 2^10000 inputs. 
+
+
+(b) Which of the two algorithms is more efficient? Justify your answer.
+
+Binary search is more efficient than quad search as there is an increase 
+in the number of comparisons in quad search. This means that the 
+reduction in the number of iterations in the quad search is not able to 
+compensate for the increase in comparisons. Therefore, the binary search
+is more efficient than the quad search.
+
+
+(c) What are the time complexities of fnA() and fnB() in terms of a and
+    b? Justify your answer.
+
+fnA() is O(b).
+fnB() is O(a + b).

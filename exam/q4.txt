@@ -1,0 +1,12 @@
+Question 4
+
+Which of the given algorithms could have been used to construct the
+mininum spanning tree? Justify your answer.
+
+Kruskal's was used to make the minimum spanning tree. First of all,
+it cannot be Depth-First Search or Dijkstra as those are used to 
+find the shortest paths rather than building a spanning tree so they
+can be eliminated. Kruskal's can be judged by the addition of the C-D 
+edge. This is because, if it was Prim's, after adding A-E, it would 
+the options of edges next to A and edges next to E and C-D is not one
+of those edges. Thus, it must be Kruskal's. 

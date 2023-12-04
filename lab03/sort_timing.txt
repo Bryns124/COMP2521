@@ -1,0 +1,28 @@
+Input	Initial	Number	AvgTime		AvgTime
+Size	Order	of Runs	for sortIntList	for sort
+10000	random	5	    0.21		0.00
+10000	sorted	5	    0.00		0.00
+10000	reverse	5	    0.00   		0.00
+20000	random	5	    1.25		0.2
+20000	sorted	5	    0.01		0.00
+20000	reverse	5	    0.01 		0.01
+40000	random	5	    6.55		0.4
+40000	sorted	5	    0.01		0.01
+40000	reverse	5	    0.02 		0.02
+100000	random	5	    46.89		0.8
+100000	sorted	5	    0.04		0.04
+100000	reverse	5	    0.05		0.05
+
+Explanation:
+Random: A random list takes the longest for sortIntList 
+        to sort as it needs to check through
+        every input integer in the list. 
+        Hence, the time complexity would be O(n^2).
+Sorted: A sorted list takes a much shorter amount of time 
+        for sortIntList than random as the sorted list 
+        is already sorted. Therefore, it linearly goes 
+        through the input integers. 
+        Hence, the time complexity would be O(n). 
+Reverse: A reverse list is very similar to the sorted list. 
+        However, it takes less time for a very large list. 
+        Hence, the time complexity would be O(n).

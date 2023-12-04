@@ -1,0 +1,12 @@
+Question 2
+
+Explain why the compilation error occurred and briefly describe how it
+can be fixed.
+
+It is likely that the struct graph was not declared properly in the 
+graph.h file. This can be inferred as the graph.c file compiled fine 
+and the error occurred after the compilation of the .c file meaning 
+the error must be in the .h file. As well as that, this error commonly
+occurs when the "struct graph" is not declared properly or not declared
+at all, as seen in:
+https://www.educative.io/edpresso/resolving-the-dereferencing-pointer-to-incomplete-type-error.

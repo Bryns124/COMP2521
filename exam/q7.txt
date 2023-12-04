@@ -1,0 +1,23 @@
+Question 7
+
+(a) How many items are examined in searching for the key 42? Justify
+    your answer.
+
+Inserting the key as 42, the modulus would be 9. In the index 9,
+There is already the value 20. Thus, we only search through 1 
+item when searching for the key 42.
+
+(b) How many items are examined in searching for the key 111? Justify
+    your answer.
+
+Inserting the key as 111, the modulus would be 1. In the index 1,
+There is no item in there. Thus, we search through no items when
+searching for the key 111.
+
+(c) What is the worst-case search cost after N total items have been
+    inserted? Justify your answer.
+
+Worst case is O(n). This is because the worst case would be every
+slot in the array already pointing to an item which would mean that
+after hashing the key, it would have to go over all the whole array
+to find a slot that is not already pointing to a key.
